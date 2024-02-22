@@ -1,0 +1,14 @@
+{
+    "redirections": [
+        {
+            "basedUrl": "http://localhost:3333",
+            "streamline_route": "/streamline/catalog",
+            "wizeco_route": "/api/v1/catalog"
+        },
+        {
+            "basedUrl": "http://localhost:3333",
+            "streamline_route": "/streamline/catalog/:id",
+            "wizeco_route": "/api/v1/catalog/:id"
+        }
+    ]
+}
